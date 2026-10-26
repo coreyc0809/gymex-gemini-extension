@@ -1,0 +1,13 @@
+{
+  "name": "gymex",
+  "version": "1.0.0",
+  "description": "Ask about your Gymex workouts, lifts, PRs, recovery, program, nutrition and wearable data. Read-only; sign in with your Gymex account.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "gymex": {
+      "httpUrl": "https://mcp.gymex.fitness/mcp",
+      "oauth": { "enabled": true },
+      "timeout": 30000
+    }
+  }
+}
